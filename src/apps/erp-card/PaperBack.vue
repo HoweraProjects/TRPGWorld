@@ -31,7 +31,7 @@ defineProps<Props>();
     </div>
     <div class="inspiration-row">
       <div class="inspiration-item special-thanks"></div>
-      <div class="inspiration-item copyright">「自由角色扮演」测试版人物卡 Copyright 侠小然</div>
+      <div class="inspiration-item copyright">「自由角色扮演」测试版人物卡 Copyright 無涯</div>
     </div>
   </PaperLayout>
 </template>

@@ -88,7 +88,7 @@ router.beforeEach((to) => {
   const { title } = to.meta;
 
   // set title
-  const titleSuffix = 'TRPG 赛高 | 侠小然';
+  const titleSuffix = 'TRPG 赛高 | 無涯';
   const docTitle = title ? `${title} | ${titleSuffix}` : titleSuffix;
   document.title = docTitle;
   document.head

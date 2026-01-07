@@ -4,7 +4,7 @@ const keeperGroupTable: KeeperGroupTableRow[] = [
   {
     key: 'sox',
     type: 'personal',
-    name: '侠小然',
+    name: '無涯',
     lists: [
       {
         key: 'prepared',

@@ -2,18 +2,9 @@
 
 <template>
   <div class="copyright-section">
-    <div class="commercial-info">
-      商业合作请联系:
-      <a
-        class="link commercial-link"
-        href="mailto:masquevil@gmail.com"
-      >
-        masquevil@gmail.com (侠小然)
-      </a>
-    </div>
     <div class="copyright">
       <span>©「自由角色扮演」测试版人物卡</span>
-      <span>Copyright 侠小然 {{ new Date().getFullYear() }}</span>
+      <span>Copyright 無涯 {{ new Date().getFullYear() }}</span>
       <span class="footprint">🐾</span>
     </div>
   </div>

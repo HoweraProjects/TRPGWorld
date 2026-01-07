@@ -16,7 +16,7 @@
 
 ### 车卡工具
 
-[https://masquevil.github.io/trpg-saikou/#/coc-card](https://masquevil.github.io/trpg-saikou/#/coc-card)
+[https://howeraprojects.github.io/TRPGWorld/#/coc-card](https://howeraprojects.github.io/TRPGWorld/#/coc-card)
 
 ![截图](./src/assets/images/readme-preview/coc-card.png)
 
@@ -28,7 +28,7 @@
 
 ### 维哲枢纽·在线跑团/聊天室
 
-[https://masquevil.github.io/trpg-saikou/#/voyage](https://masquevil.github.io/trpg-saikou/#/voyage)
+[https://howeraprojects.github.io/TRPGWorld/#/voyage](https://howeraprojects.github.io/TRPGWorld/#/voyage)
 
 ![截图](./src/assets/images/readme-preview/voyage.jpg)
 
@@ -76,9 +76,4 @@ yarn dev
 
 ## 商业使用
 
-交流、反馈、新需求请：[提 Issue](https://github.com/masquevil/trpg-saikou/issues)
-
-如需商业合作，可以联系：
-
-* 侠小然(masquevil@gmail.com)
-* 听枫馆(北京) · 枫笛 (微信：drivehe)
+交流、反馈、新需求请：[提 Issue](https://github.com/HoweraProjects/TRPGWorld/issues)

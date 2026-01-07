@@ -37,8 +37,6 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/deploy'
-    permissions:
-      contents: write
 
     steps:
       - name: Download artifact

@@ -41,8 +41,6 @@ import useAppLs from '../hooks/useAppLs';
 import { downloadFile } from '@/utils/file';
 
 import type { COCCardViewData } from '../types/viewData';
-import qrWechat from '@/assets/images/qr-wechat.jpg';
-import qrAlipay from '@/assets/images/qr-alipay.jpg';
 import cardPdf from '../assets/coc-card-empty.pdf';
 
 interface Props {
@@ -243,17 +241,6 @@ function actReward() {
   LA?.track(LAEventID.FEATURE, { name: FeatureNames.MORE_REWARD });
 }
 
-// preload qr codes when more panel is opened
-const cleanPreloadFn = watch(morePanelVisible, (visible) => {
-  if (visible) {
-    const img = new Image();
-    img.src = qrWechat;
-    nextTick(() => {
-      img.src = qrAlipay;
-    });
-    cleanPreloadFn();
-  }
-});
 </script>
 
 <template>
@@ -445,18 +432,6 @@ const cleanPreloadFn = watch(morePanelVisible, (visible) => {
         <div class="reward-texts">
           <div>喜欢这个工具？欢迎投喂！</div>
           <div>本项目为 github pages 纯前端项目，所以不用担心停运哦！</div>
-        </div>
-        <div class="reward-qr-container">
-          <img
-            class="reward-qr"
-            :src="qrWechat"
-          />
-        </div>
-        <div class="reward-qr-container">
-          <img
-            class="reward-qr"
-            :src="qrAlipay"
-          />
         </div>
       </div>
     </ControlDialog>
