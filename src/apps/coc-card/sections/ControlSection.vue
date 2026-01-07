@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, nextTick, ref, watch, reactive } from 'vue';
+import { computed, nextTick, ref, reactive } from 'vue';
 import { ElMessage } from 'element-plus';
 import LZString from 'lz-string';
 import copy from 'copy-to-clipboard';
